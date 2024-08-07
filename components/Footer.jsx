@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <>
-      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className=" px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <a
@@ -50,20 +50,20 @@ export const Footer = () => {
                 href="tel:850-123-5021"
                 aria-label="Our phone"
                 title="Our phone"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800"
               >
-                850-123-5021
+                7387961727
               </a>
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-500">Email:</p>
               <a
-                href="mailto:info@lorem.mail"
+                href="mailto:kunalvichave258@gmail.com"
                 aria-label="Our email"
                 title="Our email"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800"
               >
-                info@lorem.mail
+                kunalvichave258@gmail.com
               </a>
             </div>
             <div className="flex">
@@ -74,14 +74,14 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="Our address"
                 title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800"
               >
                 312 Lovely Street, NY
               </a>
             </div>
           </div>
           <div>
-            <span className="text-base font-bold tracking-wide text-gray-900">
+            <span className="text-base font-bold tracking-wide text-gray-500">
               Social
             </span>
             <div className="flex items-center mt-1 space-x-3">
@@ -118,7 +118,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:w-full px-20  flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+      <div className="flex md:w-full px-20 mt-12 flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
           © Copyright 2020 Lorem Inc. All rights reserved.
         </p>

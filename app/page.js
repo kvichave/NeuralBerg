@@ -19,21 +19,24 @@ export default function Home() {
           <StickyScrollReveal></StickyScrollReveal>
           <Heading1></Heading1>
           <div className="flex justify-center gap-14">
-            <button className="shadow-[inset_0_0_0_2px_#616467] text-white px-16 py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+            <button
+              onClick={() => route.push("/join-us")}
+              className="shadow-[inset_0_0_0_2px_#616467] text-white px-16 py-6 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200"
+            >
               Join Us
             </button>
             <button
-              onClick={() => route.push("/contact")}
+              onClick={() => route.push("/About")}
               className=" text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-white hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200"
             >
               About Us
             </button>
           </div>
         </div>
-        <div className="mt-20">
+        {/* <div className="mt-20">
           {" "}
           <Footer></Footer>
-        </div>
+        </div> */}
       </main>
     </>
   );
